@@ -1,0 +1,113 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+body{
+    background: linear-gradient(#1e1969, #706bae);
+    background-repeat: no-repeat;
+    height: 100%; 
+    background-attachment: fixed;
+}
+
+.fieldset{
+    background: #180d4d;
+    border: 2px solid #180d4d;
+    border-radius: 6px;
+    padding:6px;
+}
+
+.label{
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    color:white;
+}
+
+.w3-input{
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #75c77c;
+}
+
+.w3-sand,.w3-hover-sand:hover{
+    color:white!important;
+    background-color:#180d4d!important
+}
+
+.button{
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-weight: 500;
+    font-size: 16px;
+    color: #75c77c;
+    background-color: #180d4d;
+    padding: 5px 10px;
+    border: solid #75c77c 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 10px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+    
+.button:hover{
+    transition : 1000ms;
+    padding: 10px 20px;
+    transform : translateY(-0px);
+    background-color: #180d4d;
+    color: #75c77c;
+    border: solid 2px #75c77c; 
+}
+
+.setting_button{
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    background-color: #75c77c;
+    padding: 5px 5px;
+    border: solid #75c77c 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 10px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+    
+.setting_button:hover{
+    transition : 1000ms;
+    padding: 10px 10px;
+    transform : translateY(-0px);
+    background-color: #75c77c;
+    color: black;
+    border: solid 2px #75c77c; 
+}
+
+.emergency_button{
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background-color: #d33434;
+    padding: 40px 50px;
+    border: solid #d33434 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 10px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.emergency_button:hover{
+    transition : 1000ms;
+    padding: 50px 60px;
+    transform : translateY(-0px);
+    background-color: #d33434;
+    color: white;
+    border: solid 2px #d33434; 
+}

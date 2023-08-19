@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script type = "text/javascript"
+			src = "{{ url_for('static', filename = 'js/buttons.js') }}"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static',     filename='css/style.css') }}">
+    <title>CSI Camera Live</title>
+  </head>
+  <body>
+    <h1>CSI Camera Live</h1>
+    <img src="{{ url_for('video_feed') }}">
+
+    <div style ="text-align:center;">
+      <button class="button" style="display: inline-block; width:45%" id="record_btn" name="record_btn" onClick="pathRecord(this)">{{ record_btn_msg }}</button>
+    </div>
+  </body>
+</html>
